@@ -1,0 +1,70 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #41414a;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+  float: right;
+}
+.logo img{
+    margin-top: 25px;
+  }
+  header nav ul li a{
+    margin-right:25px;
+    font-weight:bold;
+    color:white;
+  }
+  header nav ul li a:hover{
+    text-decoration:none;
+    color:crimson;
+  }
+  .img1{
+      background-image:  url(img/img1.jpg);
+      background-size: 100% 100%;
+  }
+  .slider, .slider ul, .slider ul li
+  {
+      height: 100%;
+      width: 100%;
+      color: black;
+      text-align: center;
+  }
+  .slider h2{
+      font-weight: bold;
+      margin-top: 220px;
+  }
+  .slider span{
+      color: whitesmoke;
+  }
+  .slider a{
+      pading: 10px 40px;
+      margin: 10px;
+      
+  }
+  .slider a.btn-half{
+      background-color: tomato;
+      color: white;
+  }
+  .slider a.btn-full{
+      background-color: tomato;
+      color: whitesmoke;
+  }
+  .img2{
+      background-image: url(img/img2.jpg);
+      background-size: 100% 100%;
+  }
+  .img3{
+      background-image: url(img/img3.jpg);
+      background-size: 100% 100%;
+  }
